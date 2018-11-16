@@ -1,0 +1,17 @@
+{
+  "name": "ldap-tester",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "mock": "node node_modules/ldap-server-mock/server.js --conf=/tmp/ldap-conf.json --database=/tmp/users.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "ldap-server-mock": "^2.0.0"
+  }
+}
