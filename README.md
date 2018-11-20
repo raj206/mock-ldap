@@ -2,6 +2,8 @@
 
 Mock LDAP server using [this node module](https://github.com/veo-labs/ldap-server-mock).
 
+> This only works on bind and search operations.
+
 1. Clone the repo using the following command:
 `git clone https://github.com/raj206/mock-ldap`
 
